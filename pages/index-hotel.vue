@@ -1,0 +1,3 @@
+<template>
+    <IndexHotel/>
+</template>

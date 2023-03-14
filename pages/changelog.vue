@@ -1,0 +1,157 @@
+<template>
+     <!-- Start Hero -->
+     <section class="relative table w-full py-32 lg:py-40 bg-gray-50 dark:bg-slate-800">
+            <div class="container">
+                <div class="grid grid-cols-1 text-center mt-10">
+                    <h3 class="text-3xl leading-normal font-medium">Changelog</h3>
+                </div><!--end grid-->
+            </div><!--end container-->
+            
+            <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
+                <ul class="breadcrumb tracking-[0.5px] mb-0 inline-block">
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><a href="index.html">Techwind</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><a href="">Docs</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold text-indigo-600" aria-current="page">Changelog</li>
+                </ul>
+            </div>
+        </section><!--end section-->
+        <div class="relative">
+            <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+                <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Start Section-->
+        <section class="relative md:py-24 py-16">
+            <div class="container">
+                <div class="md:flex justify-center">
+                    <div class="lg:w-3/4 rounded-md shadow dark:shadow-gray-800 h-fit bg-white dark:bg-slate-900">
+                        <div class="p-6">
+                            <!-- 1.7.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.7.0</span> - 8th February 2023</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Choices Js v10.2.0</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Jarallax Js v2.1.3</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Datepicker Js v5.18.2</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">All Plugins</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Charity</span> <span class="text-red-600">(index-charity.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Law Firm</span> <span class="text-red-600">(index-law.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Video</span> <span class="text-red-600">(index-video.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Forum</span> <span class="text-red-600">(index-forums.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">One Page</span> <span class="text-red-600">(index-landing-five.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fixed <span class="text-black dark:text-white font-semibold mx-1">Background Images cover issue in all pages</span> </li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fixed <span class="text-black dark:text-white font-semibold mx-1">Fixed some responsive in DARk & RTL mode issues</span> </li>
+                            </ul>
+                            <!-- 1.7.0 End -->
+
+                            <!-- 1.6.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.6.0</span> - 6th December 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Tailwind CSS v3.2.4</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add<span class="text-black dark:text-white font-semibold mx-1">RTL version (CSS based)</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Payment</span> <span class="text-red-600">(index-payment.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Hotel & Resort</span> <span class="text-red-600">(index-hotel.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">package.json file</span> </li>
+                            </ul>
+                            <!-- 1.6.0 End -->
+
+                            <!-- 1.5.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.5.0</span> - 4th October 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Classic Application</span> <span class="text-red-600">(index-classic-app.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Insurance</span> <span class="text-red-600">(index-insurance.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">IT Solution Two</span> <span class="text-red-600">(index-it-solution-two.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Construction</span> <span class="text-red-600">(index-construction.html) </span>demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new<span class="text-black dark:text-white font-semibold mx-1">Blog Post in Blogs</span> inner pages like <span class="text-black dark:text-white font-semibold mx-1">Standard Post, Slider Post, Gallery Post, Youtube Post, Vimeo Post, Audio Post, Blockquote Post, etc.</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Testimonial Page</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">app.js file</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">gulp.js file</span> </li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-sky-500 font-semibold ltr:mr-2 rtl:ml-2">Removed : </b> Remove <span class="text-black dark:text-white font-semibold mx-1"><b>contact.js</b> file and add contact js in <b>app.js</b> file</span></li>
+                            </ul>
+                            <!-- 1.5.0 End -->
+
+                            <!-- 1.4.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.4.0</span> - 27th August 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Tailwind CSS v3.1.8</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Classic Saas</span> <span class="text-red-600">(index-classic-saas.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Modern Saas</span> <span class="text-red-600">(index-modern-saas.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Corporate Two</span> <span class="text-red-600">(index-corporate-two.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Consulting Business</span> <span class="text-red-600">(index-consulting.html) </span>demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Photography</span> <span class="text-red-600">(index-photography.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Photography</span> inner pages like <span class="text-black dark:text-white font-semibold mx-1">About me and Portfolio or Photography Gallery</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-bold mx-1">Blog Template</span> <span class="text-red-600">(index-blog.html)</span> demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fix some <span class="text-black dark:text-white font-semibold mx-1">CSS</span> issues like, buttons, breadcrumb, and some in HTML pages</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">Personal & Resume Template</span> <span class="text-red-600">(index-portfolio.html)</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-sky-500 font-semibold ltr:mr-2 rtl:ml-2">Removed : </b> Remove <span class="text-black dark:text-white font-semibold mx-1">_timeline.scss file and fixed and update timeline code in Personal & Resume Template</span> <span class="text-red-600">(index-portfolio.html)</span> </li>
+                            </ul>
+                            <!-- 1.4.0 End -->
+
+                            <!-- 1.3.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.3.0</span> - 20th July 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Tailwind CSS v3.1.6</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">NFT Marketplace</span> (index-nft.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">NFT Market</span> inner page like <span class="text-black dark:text-white font-semibold mx-1">Explore, Collections, Wallet, Creators, Create NFT Item, NFT Detail, & Auction</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">SEO Agency</span> (index-seo.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Online Course</span> (index-course.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Course</span> inner page like <span class="text-black dark:text-white font-semibold mx-1">Courses Listing & Course detail</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Event & Conference</span> (index-event.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Food Blog</span> (index-food-blog.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Food Blog</span> inner page like <span class="text-black dark:text-white font-semibold mx-1">Blog detail / Food Recipe</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">Gulp File</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">package.json</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-sky-500 font-semibold ltr:mr-2 rtl:ml-2">Removed : </b> Remove <span class="text-black dark:text-white font-semibold mx-1">postcss.config.js</span></li>
+                            </ul>
+                            <!-- 1.3.0 End -->
+
+                            <!-- 1.2.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.2.0</span> - 24th June 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Latest <span class="text-black dark:text-white font-semibold mx-1">Tailwind CSS v3.1.4</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Wow Animation Plugin</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Animate Animation Plugin</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update Saas (index-saas.html) Demo in <span class="text-black dark:text-white font-semibold mx-1">Animation</span> Mode</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Real Estate</span> (index-real-estate.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add <span class="text-black dark:text-white font-semibold mx-1">Real Estate</span> inner page like <span class="text-black dark:text-white font-semibold mx-1">Listing page</span> and <span class="text-black dark:text-white font-semibold mx-1">Property Detail Page</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Co-working Space</span> (index-coworking.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">Service Provider</span> (index-service.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Add new <span class="text-black dark:text-white font-semibold mx-1">User Profile Pages</span> (user-profile.html) demo</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update <span class="text-black dark:text-white font-semibold mx-1">Gulp File</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Update CSS to <span class="text-black dark:text-white font-semibold mx-1">SASS(SCSS)</span></li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fix some <span class="text-black dark:text-white font-semibold mx-1">CSS</span> issues like, buttons, breadcrumb, and some in HTML pages</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-sky-500 font-semibold ltr:mr-2 rtl:ml-2">Removed : </b> Remove some <span class="text-black dark:text-white font-semibold mx-1">External CSS</span> like bg video animation, Kenburn Effect, and etc.</li>
+                            </ul>
+                            <!-- 1.2.0 End -->
+
+                            <!-- v1.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.1.0</span> - 1st June 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-emerald-600 font-semibold ltr:mr-2 rtl:ml-2">Added : </b> Added Dark Version</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fixed Back to top buttons and Js</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-amber-500 font-semibold ltr:mr-2 rtl:ml-2">Updated : </b> Remove some external css</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fixed some menu issues</li>
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i><b class="text-red-600 font-semibold ltr:mr-2 rtl:ml-2">Fixed : </b> Fixed responsive issue in App Landing page</li>
+                            </ul>
+                            <!-- v1.0 End -->
+
+                            <!-- v1.0 Start -->
+                            <h5 class="text-xl font-bold">Version <span class="text-emerald-600">1.0.0</span> - 17th May 2022</h5>
+                            <ul class="list-none mb-10">
+                                <li class="items-center text-slate-400 my-3 ltr:ml-2 rtl:mr-2"><i data-feather="arrow-right-circle" class="h-4 w-4 ltr:mr-2 rtl:ml-2 text-indigo-600 inline"></i>Initial Released</li>
+                            </ul>
+                            <!-- v1.0 End -->
+
+                            <div>
+                                <a href="https://1.envato.market/techwind" target="_blank" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Download Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End Section-->
+</template>

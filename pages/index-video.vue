@@ -1,0 +1,3 @@
+<template>
+    <IndexVideo/>
+</template>

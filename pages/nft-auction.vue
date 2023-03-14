@@ -1,0 +1,313 @@
+<template>
+     <!-- Start Hero -->
+     <section class="relative table w-full py-32 lg:py-40 bg-gradient-to-br to-orange-600/20 via-fuchsia-600/20 from-indigo-600/20">
+            <div class="container">
+                <div class="grid grid-cols-1 text-center mt-10">
+                    <h3 class="text-3xl leading-normal font-medium">Auction</h3>
+                </div><!--end grid-->
+            </div><!--end container-->
+            
+            <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
+                <ul class="breadcrumb tracking-[0.5px] mb-0 inline-block">
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><a href="index.html">Techwind</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><a href="index-nft.html">NFT</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold text-indigo-600" aria-current="page">Auction</li>
+                </ul>
+            </div>
+        </section><!--end section-->
+        <div class="relative">
+            <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+                <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16">
+            <div class="container">
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[30px]">
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/1.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-1" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Deep Sea Phantasy</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/2.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-2" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">CyberPrimal 042 LAN</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/3.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-3" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Crypto Egg Stamp #5</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/4.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-4" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Color Abstract Painting</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/5.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-5" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Liquid Forest Princess</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/6.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-6" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Spider Eyes Modern Art</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/7.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-7" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Synthwave Painting</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                    
+                    <!-- Start Bid -->
+                    <div class="group relative overflow-hidden bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800 hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out">
+                        <div class="relative">
+                            <img src="@/assets/images/nft/items/8.jpg" alt="">
+                            <div class="absolute ltr:right-0 rtl:left-0 top-0 mt-6 ltr:mr-6 rtl:ml-6 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+                                <a href="#!" class="btn btn-icon text-lg bg-white dark:bg-slate-900 border-0 shadow dark:shadow-gray-800 rounded-full text-red-600/20 hover:text-red-600 focus:text-red-600"><i class="mdi mdi-heart"></i></a>
+                            </div>
+
+                            <div class="absolute top-1/2 -translate-y-1/2 right-0 left-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                                <a href="nft-detail.html" class="btn btn-sm bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</a>
+                            </div>
+
+                            <div class="absolute bottom-0 ltr:left-0 rtl:right-0 ltr:ml-6 rtl:mr-6 mb-6 text-lg ltr:bg-gradient-to-r rtl:bg-gradient-to-l to-indigo-600 from-fuchsia-600 text-white rounded-full px-3">
+                                <i class="uil uil-clock align-middle"></i> <small id="auction-item-8" class="font-semibold"></small>
+                            </div>
+                        </div>
+
+                        <div class="p-6 relative">
+                            <a href="nft-detail.html" class="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">Contemporary Abstract</a>
+
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <i class="mdi mdi-ethereum text-xl leading-none text-indigo-600 ltr:mr-1 rtl:ml-1"></i>
+                                    <span class="block font-semibold text-indigo-600">20.5 ETH</span>
+                                </div>
+
+                                <div>
+                                    <i class="mdi mdi-heart text-red-600"></i> <span class="text-slate-400">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Bid -->
+                </div><!--end grid-->
+
+                <div class="grid md:grid-cols-12 grid-cols-1 mt-6">
+                    <div class="md:col-span-12 text-center">
+                        <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"><i class="uil uil-process mdi-spin"></i> Load More</a>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end end section-->
+        <!-- End -->
+
+</template>

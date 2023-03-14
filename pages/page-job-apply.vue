@@ -1,0 +1,129 @@
+<template>
+    
+        <!-- Start Hero -->
+        <section class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/job/job.jpg')] bg-no-repeat bg-center bg-cover">
+            <div class="absolute inset-0 bg-black opacity-80"></div>
+            <div class="container">
+                <div class="grid grid-cols-1 pb-8 text-center mt-12">
+                    <h3 class="mb-4 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Senior Web Developer</h3>
+
+                    <ul class="list-none">
+                        <li class="inline text-slate-400 ltr:mr-3 rtl:ml-3"><i class="uil uil-map-marker text-white h6 ltr:mr-1 rtl:ml-1"></i> London, UK - <span class="text-white">Full Time</span></li>
+                    </ul>
+                </div><!--end grid-->
+            </div><!--end container-->
+
+            <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
+                <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index.html">Techwind</a></li>
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-job.html">Job</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Job Apply</li>
+                </ul>
+            </div>
+        </section><!--end section-->
+        <div class="relative">
+            <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden text-white dark:text-slate-900">
+                <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Start Section-->
+        <section class="relative md:py-24 py-16">
+            <div class="container">
+                <div class="grid lg:grid-cols-12 grid-cols-1" id="reserve-form">
+                    <div class="lg:col-start-2 lg:col-span-10">
+                        <div class="rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 p-6">
+                            <form>
+                                <div class="grid lg:grid-cols-12 gap-6">
+                                    <div class="lg:col-span-6">
+                                        <div class="ltr:text-left rtl:text-right">
+                                            <label for="name" class="font-semibold">Your Name:</label>
+                                            <input name="name" id="name" type="text" class="form-input mt-3" placeholder="Name :">
+                                        </div>
+                                    </div>
+    
+                                    <div class="lg:col-span-6">
+                                        <div class="ltr:text-left rtl:text-right">
+                                            <label for="email" class="font-semibold">Your Email:</label>
+                                            <input name="email" id="email" type="email" class="form-input mt-3" placeholder="Email :">
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:col-span-6">
+                                        <div class="ltr:text-left rtl:text-right">
+                                            <label for="subject" class="font-semibold">Phone No.:</label>
+                                            <input name="number" id="phonenumber" class="form-input mt-3" placeholder="Phone No. :">
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:col-span-6">
+                                        <div class="ltr:text-left rtl:text-right">
+                                            <label for="subject" class="font-semibold">Job Title:</label>
+                                            <input name="subject" id="subject" class="form-input mt-3" placeholder="Job title :">
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:col-span-6">
+                                        <label for="typejob" class="font-semibold">Types of Job:</label>
+                                        <select id="typejob" class="form-input mt-3">
+                                            <option>All Jobs</option>
+                                            <option>Full Time</option>
+                                            <option>Half Time</option>
+                                            <option>Remote</option>
+                                            <option>In Office</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="lg:col-span-12">
+                                        <div class="ltr:text-left rtl:text-right">
+                                            <label for="comments" class="font-semibold">Your Comment:</label>
+                                            <textarea name="comments" id="comments" class="form-input mt-3 h-28" placeholder="Message :"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="lg:col-span-12">
+                                        <label class="font-semibold" for="resumefile">Upload file:</label>
+                                        <input class="form-input mt-3" id="resumefile" type="file">
+                                    </div>
+                                </div>
+                                <button type="submit" id="submit" name="send" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4">Send Message</button>
+                            </form><!--end form-->
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+
+            <div class="container md:mt-24 mt-16">
+                <div class="grid md:grid-cols-12 grid-cols-1 items-center">
+                    <div class="lg:col-span-5 md:col-span-6">
+                        <img src="@/assets/images/illustrator/envelope.svg" class="mx-auto d-block" alt="">
+                    </div>
+
+                    <div class="lg:col-span-7 md:col-span-6">
+                        <span class="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Mobile Apps</span>
+                        <h4 class="md:text-3xl text-2xl lg:leading-normal leading-normal font-medium my-4">Available for your <br> Smartphones</h4>
+                        <p class="text-slate-400 max-w-xl mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                        <div class="my-5">
+                            <a href=""><img src="@/assets/images/app/app.png" class="m-1 inline-block" alt=""></a>
+
+                            <a href=""><img src="@/assets/images/app/playstore.png" class="m-1 inline-block" alt=""></a>
+                        </div>
+
+                        <div class="inline-block">
+                            <div class="pt-4 flex items-center border-t border-gray-100 dark:border-gray-700">
+                                <i data-feather="smartphone" class="ltr:mr-2 rtl:ml-2 text-indigo-600 h-10 w-10"></i>
+                                <div class="content">
+                                    <h6 class="mb-0 text-base font-medium">Install app now on your cellphones</h6>
+                                    <a href="" class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Learn More <i class="uil uil-angle-right-b"></i></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end gird-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End Section-->
+</template>

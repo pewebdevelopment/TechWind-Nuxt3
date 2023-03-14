@@ -1,0 +1,3 @@
+<template>
+    <IndexPersonal/>
+</template>

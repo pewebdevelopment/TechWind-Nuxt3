@@ -1,0 +1,3 @@
+<template>
+    <BlogSidebar/>
+</template>

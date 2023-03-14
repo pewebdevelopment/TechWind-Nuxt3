@@ -1,0 +1,3 @@
+<template>
+    <IndexRestaurent/>
+</template>

@@ -1,0 +1,3 @@
+<template>
+    <IndexConstruction/>
+</template>

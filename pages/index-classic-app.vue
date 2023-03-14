@@ -1,0 +1,3 @@
+<template>
+    <IndexClassicApp/>
+</template>

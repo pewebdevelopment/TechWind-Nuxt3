@@ -1,0 +1,3 @@
+<template>
+    <IndexHosting/>
+</template>

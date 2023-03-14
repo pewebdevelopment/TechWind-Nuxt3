@@ -1,0 +1,3 @@
+<template>
+    <IndexCoworking/>
+</template>
